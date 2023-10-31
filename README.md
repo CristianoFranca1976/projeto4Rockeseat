@@ -11,4 +11,5 @@ esse e pc view
 aqui ja e no mobile
 
 
-![Screenshot_20231031_222811](https://github.com/CristianoFranca1976/projeto4Rockeseat/assets/135919856/32ac64f4-bd90-4abd-ad05-afe3061b0784)
+
+![Screenshot_20231031_222959](https://github.com/CristianoFranca1976/projeto4Rockeseat/assets/135919856/fce997f9-5e9f-4c60-b45e-e58537ca86f2)
