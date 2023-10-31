@@ -1,0 +1,158 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: silver;
+}
+#descktop {
+    width: auto;
+    height: auto;
+    background: var(--Bg_Light, #ECE9FD);
+    border-radius: 10px;
+    border: 1px solid #d7d1f5;
+    box-shadow: 5px 5px 50px 20px rgba(113, 112, 112, 0.903);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 150px;
+}
+#group {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+}
+.paragrafo {
+    color: var(--Text_Dark_Accent, #7158EF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding-bottom: 17px;
+    margin: 0;
+}
+h1 {
+    width: 484px;
+    height: 96px;
+    color: var(--Text_Dark, #090039);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px; 
+    margin: 0;  
+}
+.paragrafo1 {
+    width: 484px;
+    height: 68px;
+    color: var(--Text_Dark_Gray, rgba(10, 0, 57, 0.64));
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+}
+a {
+    color: var(--Text_Dark, #090039);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    text-decoration: none;
+}
+.paragrafoTriplo {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    width: 100%;
+    height: auto;
+    color: var(--Text_Dark, #090039);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    margin: 0;
+}
+
+#right {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: auto;
+    padding-top: 80px;
+    margin-left: 100px;
+}
+span {
+    width: 34px;
+    height: 80px;
+    flex-shrink: 0;
+    color: var(--Text_Dark, #090039);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 80px; 
+    letter-spacing: -2px; 
+}
+@media only screen and (max-width: 1270px) {
+    #descktop {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        width: auto;
+        height: auto;  
+        padding: 23px;
+    }
+    #group {
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        justify-content: left;
+        margin-top: 60px;
+        padding: 0;
+    }
+    #left {
+        width: auto;
+    }
+    #right {
+        justify-content: space-between;
+        margin-left: 0;
+    }
+    .paragrafo {
+       position: none;
+       width: 175px;
+    }
+    h1 {
+       width: 329px;
+       height: 144px;
+       flex-shrink: 0;
+    }
+    .paragrafo1 {
+        width: 300px;
+        height: auto;
+        padding-bottom: 32px;
+        font-size: 16px;
+        text-align: justify;
+    }
+    .paragrafoTriplo {
+        justify-content: space-between;
+    }
+  
+}
